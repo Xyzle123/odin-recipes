@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: black;
+  border-radius: 100px;
+  background: yellow;
+  margin: auto;
+  padding: 20px;
+  width: 300px;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.desc {
+  text-align: center;
+  font-style: italic;
+}
+
+.ingr {
+  text-align: left;
+}
+
+head,
+body {
+  background-color: black;
+  color: white;
+}

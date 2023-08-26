@@ -17,6 +17,11 @@ img {
 }
 
 .desc {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 50px;
+  padding: 10px;
+  width: auto;
   text-align: center;
   font-style: italic;
 }
@@ -29,4 +34,14 @@ head,
 body {
   background-color: black;
   color: white;
+}
+
+html {
+  width: 500px;
+  border: 25px whitesmoke solid;
+  border-width: 10px;
+  background-color: black;
+  width: 500px;
+  padding: 100px;
+  margin: auto;
 }

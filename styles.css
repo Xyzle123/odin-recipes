@@ -1,13 +1,11 @@
-h1,
-.recipes {
+.filipino, .cuisine, .recipes {
   text-align: center;
   color: blue;
   border-radius: 100px;
   background: yellow;
-  margin: auto;
-  padding: 10px;
+  margin: 10px auto;
+  padding: 8px;
   width: 150px;
-  height: auto;
 }
 
 .cuisine {
@@ -15,31 +13,54 @@ h1,
 }
 
 .recipes {
-  color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100px;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 100px;
   width: 300px;
 }
 
 li {
-  text-align: center;
-  border-radius: 100px;
-  background: whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  width: auto;
   color: black;
+
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
   margin: auto;
-  padding: 20px;
-  width: 500px;
 }
 
-ul {
+ul { 
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   list-style-type: none;
 }
 
 head, body {
   background-color: black;
   color: white;
+}
+
+html {
+  width: 500px;
+  border: 25px whitesmoke solid;
+  border-width: 10px;
+  background-color: black;
+  width: 500px;
+  padding: 100px;
+  margin: auto;
 }
